@@ -15,7 +15,7 @@ public class lightSwitch : MonoBehaviour {
 		
 	}
 
-	void change(){
+	public void change(){
 	
 		if (isOn) {
 			isOn = false;
