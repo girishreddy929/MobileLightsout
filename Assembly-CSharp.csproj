@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\levelHandler.cs" />
      <Compile Include="Assets\Scripts\lightSwitch.cs" />
      <Compile Include="Assets\Scripts\turnManager.cs" />
+     <None Include="Assets\Resources\levels.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/giri d/softwares/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

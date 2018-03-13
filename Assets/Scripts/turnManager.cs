@@ -16,6 +16,8 @@ public class turnManager : MonoBehaviour {
 				count++;
 			}
 		}
+
+		this.gameObject.GetComponent<levelHandler>().loadLevel(1);
 	}
 	
 	// Update is called once per frame

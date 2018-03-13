@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\turnManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\levels.xml">
     <Files>
-      <File FileName="Assets\Scripts\turnManager.cs" Line="9" Column="16" />
+      <File FileName="Assets\Scripts\turnManager.cs" Line="20" Column="3" />
       <File FileName="Assets\Scripts\lightSwitch.cs" Line="18" Column="9" />
+      <File FileName="Assets\Resources\levels.xml" Line="5" Column="18" />
+      <File FileName="Assets\levelHandler.cs" Line="41" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
