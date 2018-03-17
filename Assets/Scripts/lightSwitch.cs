@@ -20,11 +20,12 @@ public class lightSwitch : MonoBehaviour {
 		Vector3 curPos = this.transform.Find ("Plane1").position;
 		if (isOn) {
 			isOn = false;
-			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z - .5f);
+			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z+.5f );
+			Debug.Log ("Changed To False");
 		} else {
 			isOn = true;
-			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z + .5f);
-			//this.transform.localEulerAngles = Vector3.zero;
+			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z -.5f);
+			Debug.Log ("Changed To True");
 		}
 	}
 }

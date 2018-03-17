@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3379018}
   - component: {fileID: 6479018}
   - component: {fileID: 2379018}
-  - component: {fileID: 11479018}
   - component: {fileID: 114596083180814652}
   m_Layer: 0
   m_Name: Plane
@@ -261,18 +260,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &11479018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d8f6a504f79445b1a495b70daa2a36a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isOn: 0
 --- !u!122 &12279018
 Halo:
   m_ObjectHideFlags: 1
