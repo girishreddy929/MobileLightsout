@@ -17,12 +17,14 @@ public class lightSwitch : MonoBehaviour {
 
 	public void change(){
 	
+		Vector3 curPos = this.transform.Find ("Plane1").position;
 		if (isOn) {
 			isOn = false;
-			this.transform.localEulerAngles = new Vector3 (0, 45, 0);
+			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z - .5f);
 		} else {
 			isOn = true;
-			this.transform.localEulerAngles = Vector3.zero;
+			this.transform.Find ("Plane1").position = new Vector3 (curPos.x, curPos.y, curPos.z + .5f);
+			//this.transform.localEulerAngles = Vector3.zero;
 		}
 	}
 }

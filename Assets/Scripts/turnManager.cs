@@ -10,8 +10,8 @@ public class turnManager : MonoBehaviour {
 
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
-				GameObject tmpGb = Instantiate (Resources.Load ("Cube", typeof(GameObject))) as GameObject;
-				tmpGb.transform.position = new Vector3 (j * 1.5f - 3f, i * -1.5f + 3f, 0);
+				GameObject tmpGb = Instantiate (Resources.Load ("Plane", typeof(GameObject))) as GameObject;
+				tmpGb.transform.position = new Vector3 (j * 1.2f - 3f, i * -1.2f + 3f, 0);
 				tmpGb.name = count.ToString ();
 				count++;
 			}
