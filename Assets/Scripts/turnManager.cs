@@ -50,7 +50,7 @@ public class turnManager : MonoBehaviour {
 			turn (name-1);
 		}
 
-		//checkIfFinished ();
+		CheckIfFinished ();
 	}
 
 	void turn(int name){
@@ -60,5 +60,16 @@ public class turnManager : MonoBehaviour {
 		turnObj.GetComponent<lightSwitch> ().change ();
 		Debug.Log ("Changed!!");
 
+	}
+
+	void CheckIfFinished(){
+		this.gameObject.GetComponent<engine> ().nrOfMoves++;
+
+		for (int i = 0; i < 26; i++) {
+		
+			if (this.gameObject.GetComponent<lightSwitch> ().isOn)
+				return;
+		}
+		this.gameObject.GetComponent<engine> ().gameFinished ();
 	}
 }

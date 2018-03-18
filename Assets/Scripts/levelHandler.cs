@@ -31,6 +31,8 @@ public class levelHandler : MonoBehaviour {
 
 		}
 
+		this.gameObject.GetComponent<engine> ().init (levelArray.Count);
+
 	}
 
 	// Update is called once per frame
