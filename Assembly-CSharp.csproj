@@ -51,10 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\levelHandler.cs" />
+     <Compile Include="Assets\Scripts\engine.cs" />
+     <Compile Include="Assets\Scripts\leveleditor.cs" />
+     <Compile Include="Assets\Scripts\levelHandler.cs" />
      <Compile Include="Assets\Scripts\lightSwitch.cs" />
      <Compile Include="Assets\Scripts\turnManager.cs" />
      <None Include="Assets\Resources\levels.xml" />
+     <None Include="Assets\Resources\editor.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/giri d/softwares/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
